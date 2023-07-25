@@ -1,0 +1,494 @@
+.navbar {
+            overflow: auto;
+            background-color: rgb(155, 65, 228);
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 25px;
+            color: rgb(247, 246, 248);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: wavy;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: verdana;
+        }
+
+        #abc {
+            width: 100%;
+            height: 100vh; /* Set to full viewport height */
+            background-image: url(https://res.cloudinary.com/dmxwnn7mm/image/upload/v1689738072/mainGate_jyx5r7.jpg);
+            background-size: cover;
+            background-position: center; /* Center the background */
+            transition: background-position 0.5s ease; /* Added smooth transition */
+        }
+
+        nav {
+            width: 100%;
+            height: 50px;
+            background-color: #0005;
+            line-height: 50px;
+        }
+
+        nav ul {
+            float: left;
+            margin-right: 30px;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            transition: 0.7s all;
+        }
+
+        nav ul li:hover {
+            background-color: #088;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 30px;
+        }
+
+        .content-box {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            max-width: 60%;
+            color: white;
+            font-size: 20px;
+            font-weight: 300;
+            border-radius: 10px;
+            margin: 0 auto; /* Center the content box */
+        }
+
+        .parallax-1 h1,
+        .parallax-1 h2 {
+            color: white;
+            text-align:center;
+        }
+
+        .parallax-1 h1 {
+            font-size: 50px; /* Increase the font size for h1 */
+        }
+
+        .parallax-1 h2 {
+            font-size: 20px; /* Decrease the font size for h2 */
+            font-weight: 50; /* Make the font thinner */
+        }
+
+        .bold-text {
+            font-weight: bold;
+        }
+
+        .parallax-2 {
+            width: 100%;
+            background-color: white; /* Changed to white background */
+            padding: 60px 0;
+            height: 100vh; /* Added padding to match the original design */
+        }
+
+        .parallax-2 h2 {
+            color: rgb(96, 13, 239);
+            text-align: center;
+            font-size: 4vw;
+            font-family: Tahoma, sans-serif;
+            
+        }
+
+        .para-1 {
+            padding: 50px;
+            background-color: black;
+            color: white;
+            font-size: 2vw;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        .para-2 {
+            text-align: center;
+            padding: 25px;
+            font-size: large;
+            font-family: Verdana;
+            background-color: black;
+            color: white;
+            text-align: start;
+        }
+      
+        .parallax-3 {
+            width: 100%;
+            background-color: white;
+            padding: 60px 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .page-image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80%;
+        }
+
+        .page-image {
+            max-width: 100%;
+            max-height: 100%;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        .parallax-3.hide-image .page-image {
+            opacity: 0;
+        }
+
+        .parallax-4 {
+            width: 100%;
+            background-color: white;
+            padding: 60px 0;
+            height: 100vh;
+            
+        }
+
+        .page-sections-4 {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px;
+        }
+
+        .left-section-4 {
+            flex: 2;
+            padding-right: 20px;
+        }
+
+        .right-section-4 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .paragraphs-4 p {
+            font-size: 1vw;
+            line-height: 1.6;
+        }
+
+        .options-container-4 {
+            display: flex;
+            flex-direction: row; /* Align options in a column */
+            align-items: center; /* Center the options horizontally */
+            margin-top: 20px;
+        }
+
+        .option-box-4 {
+            width: 180px;
+            height: 50px;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            margin: 10px;
+            border: 2px solid orange; /* Add an orange border */
+        }
+        .option-box-4b {
+            width: 320px;
+            height: 50px;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            margin: 10px;
+            border: 2px solid orange; /* Add an orange border */
+        }
+
+        .option-box-4:hover {
+            background-color: orange;
+            color: white; /* Change text color to white on hover */
+        }
+        .option-box-4b:hover {
+            background-color: orange;
+            color: white; /* Change text color to white on hover */
+        }
+
+        .option-text-4 {
+            font-size: 16px;
+            color: rgb(8, 8, 8);
+            font-weight: bold;
+        }
+        .option-text-4b {
+            font-size: 16px;
+            color: rgb(8, 8, 8);
+            font-weight: bold;
+        }
+
+        .map-container-4 {
+            width: 150%;
+            height: 500px; /* Adjust height as needed */
+            margin-top: 10px;
+            
+            border: 2px solid black;
+           
+        }
+
+        .map-iframe-4 {
+            width: 100%;
+            height: 100%;
+        }
+        .content-box h1 {
+            color: orange;
+           
+        }
+
+        .options-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        /* Option box */
+        .option-box {
+            width: 180px;
+            height: 50px;
+            background-color: white;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            margin: 10px;
+        }
+
+        /* Option box hover effect */
+        .option-box:hover {
+            background-color: orange;
+        }
+
+        /* Option box text style */
+        .option-text {
+            font-size: 16px;
+            color: rgb(8, 8, 8); /* Changed font color to white */
+            font-weight: bold;
+        }
+
+        .logo-container {
+            display:flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .logo {
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            position: relative;
+            background-color: rgba(255, 255, 255, 0.1);
+            
+        }
+        
+        /* Added CSS for the container box */
+        .container-box {
+            max-width: 800px;
+            margin: 20px auto; /* Adjust margin as needed */
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center; /* Center the text inside the container box */
+        }
+
+        .container-box h2 {
+            color: orange;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .container-box p {
+            font-size: 18px;
+            color: white;
+            text-align: center; /* Center the text inside the container box */
+        }
+        .page-sections {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 5vw;
+        }
+
+        .left-section {
+            flex: 1;
+            padding-right: 5vw;
+        }
+
+        .right-section {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .right-section img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Adjust text and image size as needed */
+        .left-section p {
+            font-size: 1.1vw;
+            line-height: 1.6;
+        }
+        .pop-up-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+.pop-up-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+.parallax-5 {
+    width: 100%;
+    background-color: white;
+    padding: 50px ;
+    overflow-y: auto;
+    overflow: hidden;
+}
+
+.content-box2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    max-width: 80%;
+    color: white;
+    font-size: 15px;
+    align-content: center;
+    font-weight: 300;
+    border-radius: 20px;
+    margin:0 auto; /* Center the content box */
+    transition: transform 1.0s ease;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    
+}
+
+
+
+        .content-box2 {
+            /* ... existing styles ... */
+            background-color: rgba(239, 180, 69, 0.7);
+            text-align: center;
+             /* Transparent with orange tint */
+        }
+
+        /* Add a new container for the image gallery inside content box 2 */
+        .image-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* CSS for each image in the gallery */
+.image-gallery {
+    width: calc(32% - 10px);
+    height:auto;
+    margin: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    transition: transform 0.5s ease;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Optional: Add a hover effect for the images */
+.image-gallery:hover {
+    opacity: 0.8;
+}
+
+.pop-up-overlay {
+    /* ... Existing styles ... */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    overflow-y: auto; /* Add this to enable vertical scrolling */
+}
+
+        .pop-up-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .pop-up-image {
+            max-width: 80%;
+            max-height: 80%;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .pop-up-overlay.active .pop-up-image {
+            opacity: 1;
+        }
+
+        .image-gallery {
+    /* ... (existing styles) ... */
+    transition: transform 0.5s ease;
+}
+
+/* Optional: Add a hover effect for the images */
+.image-gallery:hover {
+    transform: scale(1.1);
+}
+.footer {
+            background-color: #f5ebeb;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid black ;
+            
+        }
+
+        .footer img {
+            max-width: 100%;
+            height: auto;
+            margin: 50px;
+        }
+
+        .footer p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 10px;
+        }
