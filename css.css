@@ -21,7 +21,7 @@
         #abc {
             width: 100%;
             height: 100vh; /* Set to full viewport height */
-            background-image: url(https://res.cloudinary.com/dmxwnn7mm/image/upload/v1689738072/mainGate_jyx5r7.jpg);
+            background-image: url(https://github.com/AyushRatan1/CSITSS/blob/main/mainGate_jyx5r7.jpg?raw=true);
             background-size: cover;
             background-position: center; /* Center the background */
             transition: background-position 0.5s ease; /* Added smooth transition */
@@ -549,6 +549,3 @@
 body {
     overflow-x: hidden;
 }
-       
-/* table design*/
-
