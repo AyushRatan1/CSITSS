@@ -64,3 +64,4 @@ window.addEventListener("scroll", function () {
 
       // To show the notice box with animation
 document.querySelector('.notice-box').classList.add('active');
+  
