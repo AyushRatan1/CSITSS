@@ -20,11 +20,12 @@
 
         #abc {
             width: 100%;
-            height: 100vh; 
+            height: 100vh; /* Set to full viewport height */
             background-image: url(https://res.cloudinary.com/dmxwnn7mm/image/upload/v1689738072/mainGate_jyx5r7.jpg);
             background-size: cover;
-            background-position: center; 
-            transition: background-position 0.5s ease; 
+            background-position: center; /* Center the background */
+            transition: background-position 0.5s ease; /* Added smooth transition */
+            
         }
 
         nav {
@@ -63,7 +64,7 @@
             font-size: 20px;
             font-weight: 300;
             border-radius: 10px;
-            margin: 0 auto; 
+            margin: 0 auto; /* Center the content box */
         }
 
         .parallax-1 h1,
@@ -73,12 +74,12 @@
         }
 
         .parallax-1 h1 {
-            font-size: 50px; 
+            font-size: 50px; /* Increase the font size for h1 */
         }
 
         .parallax-1 h2 {
-            font-size: 20px; 
-            font-weight: 50; 
+            font-size: 20px; /* Decrease the font size for h2 */
+            font-weight: 50; /* Make the font thinner */
         }
 
         .bold-text {
@@ -87,9 +88,9 @@
 
         .parallax-2 {
             width: 100%;
-            background-color: white; 
+            background-color: white; /* Changed to white background */
             padding: 60px 0;
-            height: 100vh; 
+            height: 100vh; /* Added padding to match the original design */
         }
 
         .parallax-2 h2 {
@@ -180,8 +181,8 @@
 
         .options-container-4 {
             display: flex;
-            flex-direction: row; 
-            align-items: center; 
+            flex-direction: row; /* Align options in a column */
+            align-items: center; /* Center the options horizontally */
             margin-top: 20px;
         }
 
@@ -196,7 +197,7 @@
             cursor: pointer;
             transition: background-color 0.3s ease-in-out;
             margin: 10px;
-            border: 2px solid orange; 
+            border: 2px solid orange; /* Add an orange border */
         }
         .option-box-4b {
             width: 320px;
@@ -209,16 +210,16 @@
             cursor: pointer;
             transition: background-color 0.3s ease-in-out;
             margin: 10px;
-            border: 2px solid orange; 
+            border: 2px solid orange; /* Add an orange border */
         }
 
         .option-box-4:hover {
             background-color: orange;
-            color: white; 
+            color: white; /* Change text color to white on hover */
         }
         .option-box-4b:hover {
             background-color: orange;
-            color: white; 
+            color: white; /* Change text color to white on hover */
         }
 
         .option-text-4 {
@@ -234,7 +235,7 @@
 
         .map-container-4 {
             width: 150%;
-            height: 500px; 
+            height: 500px; /* Adjust height as needed */
             margin-top: 10px;
             
             border: 2px solid black;
@@ -256,7 +257,7 @@
             margin-top: 20px;
         }
 
-        
+        /* Option box */
         .option-box {
             width: 180px;
             height: 50px;
@@ -270,22 +271,24 @@
             margin: 10px;
         }
 
-        
+        /* Option box hover effect */
         .option-box:hover {
             background-color: orange;
         }
 
-       
+        /* Option box text style */
         .option-text {
             font-size: 16px;
-            color: rgb(8, 8, 8); 
+            color: rgb(8, 8, 8); /* Changed font color to white */
             font-weight: bold;
         }
 
         .logo-container {
             display:flex;
             justify-content: center;
-            margin-top: 20px;
+    align-items: center;
+    margin: 20px 0;
+
         }
 
         .logo {
@@ -297,14 +300,14 @@
             
         }
         
-        
+        /* Added CSS for the container box */
         .container-box {
             max-width: 800px;
-            margin: 20px auto; 
+            margin: 20px auto; /* Adjust margin as needed */
             background-color: rgba(0, 0, 0, 0.7);
             border-radius: 10px;
             padding: 20px;
-            text-align: center;
+            text-align: center; /* Center the text inside the container box */
         }
 
         .container-box h2 {
@@ -316,7 +319,7 @@
         .container-box p {
             font-size: 18px;
             color: white;
-            text-align: center; 
+            text-align: center; /* Center the text inside the container box */
         }
         .page-sections {
             display: flex;
@@ -347,7 +350,7 @@
             height: auto;
         }
 
-        
+        /* Adjust text and image size as needed */
         .left-section p {
             font-size: 1.1vw;
             line-height: 1.6;
@@ -388,7 +391,7 @@
     align-content: center;
     font-weight: 300;
     border-radius: 20px;
-    margin:0 auto; 
+    margin:0 auto; /* Center the content box */
     transition: transform 1.0s ease;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     border: 1px solid black;
@@ -398,13 +401,13 @@
 
 
         .content-box2 {
-            
+            /* ... existing styles ... */
             background-color: rgba(239, 180, 69, 0.7);
             text-align: center;
-             
+             /* Transparent with orange tint */
         }
 
-        
+        /* Add a new container for the image gallery inside content box 2 */
         .image-gallery-container {
     display: flex;
     flex-wrap: wrap;
@@ -414,7 +417,7 @@
     padding: 20px;
 }
 
-
+/* CSS for each image in the gallery */
 .image-gallery {
     width: calc(32% - 10px);
     height:auto;
@@ -425,13 +428,13 @@
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-
+/* Optional: Add a hover effect for the images */
 .image-gallery:hover {
     opacity: 0.8;
 }
 
 .pop-up-overlay {
-   
+    /* ... Existing styles ... */
     position: fixed;
     top: 0;
     left: 0;
@@ -444,7 +447,7 @@
     z-index: 999;
     opacity: 0;
     pointer-events: none;
-    overflow-y: auto; 
+    overflow-y: auto; /* Add this to enable vertical scrolling */
 }
 
         .pop-up-overlay.active {
@@ -464,11 +467,11 @@
         }
 
         .image-gallery {
-    
+    /* ... (existing styles) ... */
     transition: transform 0.5s ease;
 }
 
-
+/* Optional: Add a hover effect for the images */
 .image-gallery:hover {
     transform: scale(1.1);
 }
@@ -491,4 +494,98 @@
             font-size: 16px;
             line-height: 1.6;
             margin: 10px;
+        }
+
+/* Add these styles for the notice box */
+.notice-bar {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            line-height: 50px; /* Vertically center text */
+            overflow: hidden;
+            white-space: nowrap;
+             /* Fixed position to the top */
+            top: 50px; /* Position it right below the navigation bar */
+            width: 2000px; /* Full width */
+            z-index: 1000; /* Ensure it appears above other elements */
+            
+        }
+
+        .notice-text {
+            animation: marquee 14s linear infinite;
+            animation-delay: 2s;
+            display: inline-block; /* To make text occupy full width */
+        }
+
+
+        /* ... (existing CSS) ... */
+
+        /* Keyframes for the text animation */
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+.marquee {
+  position: relative;
+  width: 200vw;
+  max-width: 100%;
+  height: 30px;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+  display: block;
+  background-color: white;
+}
+
+/* Add a keyframe animation for the moving text */
+
+.redtext{
+    color: red;
+}
+body {
+    overflow-x: hidden;
+}
+       
+/* table design*/
+
+.page-6 {
+            background-color: #f2f2f2; /* Background color for Page 6 */
+            padding: 20px;
+        }
+
+        .page-6 p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Style for tables */
+        .table-container {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 20px;
+            border-collapse: collapse; /* Collapse table borders */
+        }
+
+        .table-container table {
+            width: 100%;
+            border-collapse: collapse; /* Collapse table borders */
+        }
+
+        .table-container table, .table-container th, .table-container td {
+            border: 2px solid #ddd; /* Border color */
+        }
+
+        .table-container th, .table-container td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .table-container th {
+            background-color: #f5ebeb; /* Header background color */
+            font-weight: bold;
         }
